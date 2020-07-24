@@ -13,18 +13,16 @@ public class RandomNumbers {
             sum = sum + temp;
             System.out.println(temp);
             result++;
-        }
-        int temp;
-            {
                 for (temp = 0; temp < min; temp++) ;
+                min = temp;
                 System.out.println("Najmniejsza wartosc to: " + temp);
                 for (temp = 30; temp > max; temp++) ;
+                max = temp;
                 System.out.println("Najwiksza wartosc to: " + temp);
-                return;
             }
+        }
 
     }
-}
 
 
 
