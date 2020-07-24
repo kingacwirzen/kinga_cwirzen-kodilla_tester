@@ -10,9 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/kodilla-basic-tests" />
-            <option value="$PROJECT_DIR$/kodilla-intro" />
-            <option value="$PROJECT_DIR$/kodilla-intro/HelloWorld" />
+            <option value="$PROJECT_DIR$/com.kodilla-basic-tests" />
+            <option value="$PROJECT_DIR$/com.kodilla-intro" />
+            <option value="$PROJECT_DIR$/com.kodilla-intro/HelloWorld" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />
