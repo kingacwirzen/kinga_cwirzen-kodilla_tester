@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'kodilla-course'
+group 'com.kodilla-course'
 version '1.0-SNAPSHOT'
 
 repositories {

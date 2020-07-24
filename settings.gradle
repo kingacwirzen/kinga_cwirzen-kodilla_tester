@@ -1,5 +1,6 @@
-rootProject.name = 'kodilla-course'
-include 'kodilla-intro'
-include 'kodilla-intro:HelloWorld'
-findProject(':kodilla-intro:HelloWorld')?.name = 'HelloWorld'
+rootProject.name = 'com.kodilla-course'
+include 'com.kodilla-intro'
+include 'com.kodilla-intro:HelloWorld'
+findProject(':com.kodilla-intro:HelloWorld')?.name = 'HelloWorld'
+include 'com.kodilla-basic-tests'
 
