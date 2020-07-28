@@ -3,4 +3,5 @@ include 'com.kodilla-intro'
 include 'com.kodilla-intro:HelloWorld'
 findProject(':com.kodilla-intro:HelloWorld')?.name = 'HelloWorld'
 include 'com.kodilla-basic-tests'
+include 'kodilla-basic-tests'
 
