@@ -8,13 +8,13 @@ public class Book {
         this.tittle = tittle;
     }
 
-    private void of() {
-        System.out.println("Autor to " + author + " tytuł to " + tittle);
+    public static Book of(String author, String tittle) {
+        Book book = new Book(author, tittle);
+        return book;
     }
 
     public static void main(String[] args) {
-        Book book = new Book("J. Grzędowicz", "Wypychacz zwierząt");
-        book.of();
+        Book book = Book.of("J.Grzędowicz", "Wypychacz zwierząt");
     }
 
 }
