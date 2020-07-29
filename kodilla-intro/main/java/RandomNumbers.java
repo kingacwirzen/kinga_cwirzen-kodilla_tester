@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class RandomNumbers {
-    public static void main(String[] args) {
+    public static int main(String[] args) {
 
         Random random = new Random();
         int result = 0;
@@ -13,16 +13,19 @@ public class RandomNumbers {
             sum = sum + temp;
             System.out.println(temp);
             result++;
-            for (temp = 0; temp < min; temp++) ;
-            min = temp;
-            System.out.println("Najmniejsza wartosc to: " + temp);
-            for (temp = 30; temp > max; temp++) ;
-            max = temp;
-            System.out.println("Najwiksza wartosc to: " + temp);
+
+            if (temp < min) {
+                min = temp;
+            }
+            if (temp > max) {
+                max = temp;
+            }
+
         }
     }
 
 }
+
 
 
 
