@@ -9,10 +9,10 @@ public class OperatingSystem {
     }
 
     public void turnOn() {
-        System.out.println("Rok wydania.");
+        System.out.println("Włącz");
     }
-    public  void turnOf() {
-        System.out.println("Też rok wydania.");
+    public void turnOf() {
+        System.out.println("Wyłącz");
     }
 }
 
