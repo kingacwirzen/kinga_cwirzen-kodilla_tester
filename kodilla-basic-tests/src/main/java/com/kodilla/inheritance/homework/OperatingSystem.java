@@ -2,7 +2,7 @@ package com.kodilla.inheritance.homework;
 
 public class OperatingSystem {
 
-    private int year;
+    public int year;
 
     public OperatingSystem(int year) {
         this.year = year;

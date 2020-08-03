@@ -7,6 +7,6 @@ public class Windows extends OperatingSystem {
 
     @Override
     public void turnOf() {
-        System.out.println("Wyłącz Windows");
+        System.out.println("Wyłącz Windows " + year);
     }
 }
