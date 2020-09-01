@@ -1,12 +1,14 @@
 package com.kodilla.abstracts.homework;
 
 public abstract class Perimeter extends Shape {
-    public Perimeter() {
-        super(7);
+
+    public Perimeter(double z) {
+        super(z);
     }
 
     @Override
-    public void getCirlcePerimeter() {
-        System.out.println(perimeter);
+    public double getPerimeter() {
+        return 2 * PI * z;
+
     }
 }
