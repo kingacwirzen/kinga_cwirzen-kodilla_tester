@@ -3,7 +3,6 @@ package com.kodilla.abstracts.homework;
 public abstract class Shape {
     public static double PI = 3.14;
     public double r;
-    double result1;
 
 
     public Shape(double r) {

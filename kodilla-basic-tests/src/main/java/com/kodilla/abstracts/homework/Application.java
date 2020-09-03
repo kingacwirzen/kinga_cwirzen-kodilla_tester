@@ -10,5 +10,6 @@ public class Application {
         Area area = new Area(5);
         area.getArea();
         }
+
 }
 

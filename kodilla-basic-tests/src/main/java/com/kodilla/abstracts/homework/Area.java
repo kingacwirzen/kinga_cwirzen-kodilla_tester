@@ -8,8 +8,7 @@ public class Area extends Shape {
 
     @Override
     public double getArea() {
-        double result1 = PI * r * r;
-        return result1;
+        return PI * r * r;
     }
 
     @Override
