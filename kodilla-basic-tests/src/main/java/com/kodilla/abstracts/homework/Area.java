@@ -8,6 +8,13 @@ public class Area extends Shape {
 
     @Override
     public double getArea() {
-        return PI * r * r;
+        double result1 = PI * r * r;
+        return result1;
     }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
+
 }

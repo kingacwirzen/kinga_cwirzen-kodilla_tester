@@ -7,6 +7,11 @@ public class Perimeter extends Shape {
     }
 
     @Override
+    public double getArea() {
+        return 0;
+    }
+
+    @Override
     public double getPerimeter() {
         return 2 * PI * r;
     }
