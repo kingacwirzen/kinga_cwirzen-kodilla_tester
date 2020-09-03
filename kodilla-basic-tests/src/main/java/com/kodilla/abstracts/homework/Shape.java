@@ -5,9 +5,8 @@ public abstract class Shape {
     public double r;
     public double z;
 
-    public Shape(double r, double z) {
+    public Shape(double r) {
         this.r = r;
-        this.z = z;
     }
 
     public abstract double getArea();
