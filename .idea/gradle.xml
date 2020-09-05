@@ -14,9 +14,9 @@
             <option value="$PROJECT_DIR$/com.kodilla-intro" />
             <option value="$PROJECT_DIR$/com.kodilla-intro/HelloWorld" />
             <option value="$PROJECT_DIR$/kodilla-basic-tests" />
+            <option value="$PROJECT_DIR$/kodilla-collections" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
