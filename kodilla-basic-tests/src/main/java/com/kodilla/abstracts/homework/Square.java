@@ -1,19 +1,19 @@
 package com.kodilla.abstracts.homework;
 
-public class Perimeter extends Shape {
+public class Square extends Shape {
 
-    public Perimeter(double r) {
+    public Square(double r) {
         super(r);
     }
 
     @Override
     public double getArea() {
-        return 0;
+        return 4 * r;
     }
 
     @Override
     public double getPerimeter() {
-        return 2 * PI * r;
+        return 0;
     }
 
 }

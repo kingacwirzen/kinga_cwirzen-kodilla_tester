@@ -1,19 +1,18 @@
 package com.kodilla.abstracts.homework;
 
-public class Area extends Shape {
+public class Triangle extends Shape {
 
-    public Area(double r) {
+    public Triangle(double r) {
         super(r);
     }
 
     @Override
     public double getArea() {
-        return PI * r * r;
+        return 3 * r;
     }
 
     @Override
     public double getPerimeter() {
         return 0;
     }
-
 }
