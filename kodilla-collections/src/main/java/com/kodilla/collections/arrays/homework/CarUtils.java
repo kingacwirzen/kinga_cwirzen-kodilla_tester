@@ -6,21 +6,23 @@ import com.kodilla.collections.interfaces.homework.Seat;
 import com.kodilla.collections.interfaces.homework.Audi;
 
 public class CarUtils {
+    private static Object Car;
+
     public static void describeCar(Car car) {
         System.out.println("____________");
         System.out.println("Car kind: " + getCarName(car));
     }
+
     private static String getCarName(Car car) {
-        if (car instanceof BMW)
+        if (car instanceof BMW) {
             return "BMW";
-
-        else if (car instanceof Seat)
+        } else if (car instanceof Seat) {
             return "Seat";
-
-        else if (car instanceof Audi)
+        } else if (car instanceof Audi) {
             return "Audi";
-
-        else
+        } else {
             return "Unknown car name";
+        }
+
     }
 }
